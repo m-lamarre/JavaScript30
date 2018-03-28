@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+html {
+  font-size: 1em;
+  background: url(https://images5.alphacoders.com/362/thumb-1920-362963.jpg) bottom center;
+  background-size: cover;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Questrial", sans-serif;
+}
+html .keys, body .keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+html .key, body .key {
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 0.5rem black;
+  border: 0.4rem solid #546E7A;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+}
+html .playing, body .playing {
+  transform: scale(1.1);
+  border-color: #5DDEF4;
+  box-shadow: 0 0 1rem #5DDEF4;
+}
+html kbd, body kbd {
+  display: block;
+  font-size: 4rem;
+}
+html .sound, body .sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #5DDEF4;
+}
