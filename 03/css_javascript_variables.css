@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+:root {
+  --base: #00ACC1;
+  --spacing: 10px;
+  --blur: 5px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+body {
+  font-family: "Questrial", sans-serif;
+  text-align: center;
+  background: #29434E;
+  color: white;
+  font-size: 2rem;
+}
+body .controls {
+  margin-bottom: 50px;
+}
+body input {
+  width: 100px;
+}
