@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+body {
+  font-family: "Questrial", sans-serif;
+}
+
+.outer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 400px;
+  width: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  color: #B2EBF2;
+  background: #29434E;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+.outer h1 {
+  text-align: center;
+  margin-top: 170px;
+}
+.outer h2 {
+  text-align: center;
+}
