@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+html {
+  font-family: "Questrial", sans-serif;
+  background: #007C91;
+}
+
+.inbox {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #CFD8DC;
+}
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  background: #E0F7FA;
+  text-decoration: line-through;
+}
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  color: #29434E;
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  flex: 1;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  border-left: 1px solid #90A4AE;
+}
